@@ -4,6 +4,9 @@ import Hello from '@/components/Hello'
 import Mimi from '@/components/Mimi'
 
 const router = new Router({
+  hashbang: false,
+  linkActiveClass: 'active',
+  mode: 'history',
   routes: [
     {
       path: '/',
